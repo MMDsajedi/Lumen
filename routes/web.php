@@ -11,9 +11,6 @@ use Illuminate\Support\Facades\Route;
 | and give it the Closure to call when that URI is requested.
 |
 */
-Route::get('/', function(){
-    return "dfdfdfdf";
-});
 
 Route::post('/signup', 'AuthController@signup');
 Route::post('/login', 'AuthController@login');
